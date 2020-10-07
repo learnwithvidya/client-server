@@ -1,5 +1,5 @@
 import socket
-SERVER =  "172.16.58.53"
+SERVER =  "127.0.0.1"
 PORT = 8080
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect((SERVER, PORT))
